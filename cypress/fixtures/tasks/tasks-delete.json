@@ -1,0 +1,23 @@
+{
+  "remove": {
+    "user": {
+      "name": "Tony Stark",
+      "email": "tony@gmail.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Construir a mark87",
+      "tags": ["mark", "nano tech", "friday"]
+    }
+  },
+  "not_found": {
+    "user": {
+      "name": "Papito",
+      "email": "papito@gmail.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Construir um curso de api com cypress"
+    }
+  }
+}

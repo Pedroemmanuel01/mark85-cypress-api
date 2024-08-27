@@ -1,0 +1,44 @@
+{
+  "list": {
+    "user": {
+      "name": "frida",
+      "email": "frida@gmail.com",
+      "password": "pwd123"
+    },
+    "tasks": [
+      {
+        "name": "Estud4r cypress",
+        "tags": ["cypress", "javascript", "node"]
+      },
+      {
+        "name": "Estud4r teste de performace",
+        "tags": ["Jmeter", "k6"]
+      },
+      {
+        "name": "Estud4r candidatura",
+        "tags": ["linkledlin"]
+      }
+    ]
+  },
+  "unique": {
+    "user": {
+      "name": "bolota",
+      "email": "bolota@gmail.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Constru1r a mark87",
+      "tags": ["mark", "nano tech", "friday"]
+    }
+  },
+  "not_found": {
+    "user": {
+      "name": "Bruce banner",
+      "email": "bruce@gmail.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Construir uma maquina de radicao gama"
+    }
+  }
+}

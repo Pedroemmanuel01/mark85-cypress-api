@@ -1,0 +1,30 @@
+{
+  "login": {
+    "name": "Geisekely Mendes",
+    "email": "geisekely@yahoo.com",
+    "password": "pwd123"
+  },
+  "inv_pass": {
+    "email": "geisekely@yahoo.com",
+    "password": "123456"
+  },
+  "email_404": {
+    "email": "404@yahoo.com",
+    "password": "123456"
+  },
+  "create": {
+    "name": "Pedro Emmanuel",
+    "email": "emmanuel@yahoo.com",
+    "password": "pwd123"
+  },
+  "dup_email": {
+    "name": "Pedro Emmanuel",
+    "email": "emmanuel@yahoo.com",
+    "password": "pwd123"
+  },
+  "required": {
+    "name": "Margot Robbie",
+    "email": "margot@yahoo.com",
+    "password": "pwd123"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "mark85-cypress-api",
+  "version": "1.0.0",
+  "description": "Projeto de testes de api ",
+  "main": "index.js",
+  "scripts": {
+    "cypress_open": "npx cypress open",
+    "cypress_headless": "npx cypress run --headless"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "mongodb",
+    "rabbimq"
+  ],
+  "author": "Pedro Emmanuel",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.2",
+    "cypress-plugin-api": "^2.11.2"
+  },
+  "dependencies": {
+    "mark85-cypress-api": "file:",
+    "mongodb": "^6.8.0"
+  }
+}
