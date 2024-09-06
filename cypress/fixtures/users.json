@@ -10,7 +10,7 @@
   },
   "email_404": {
     "email": "404@yahoo.com",
-    "password": "123456"
+    "password": "pwd123"
   },
   "create": {
     "name": "Pedro Emmanuel",
@@ -25,6 +25,15 @@
   "required": {
     "name": "Margot Robbie",
     "email": "margot@yahoo.com",
+    "password": "pwd123"
+  },
+  "email_invalid": {
+    "email": "PedroEmmanuelTeotonio",
+    "password": "pwd123"
+  },
+  "createEmail_invalid": {
+    "name": "Pedro Emmanuel",
+    "email": "PedroEmmanuelTeotonio",
     "password": "pwd123"
   }
 }

@@ -17,6 +17,6 @@
 import "./commands/amqp";
 import "./commands/services";
 import "cypress-plugin-api";
-
+import "./commands/front";
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

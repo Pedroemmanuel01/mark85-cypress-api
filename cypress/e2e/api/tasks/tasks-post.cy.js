@@ -33,7 +33,7 @@ describe("POST/tasks", () => {
 
     after(function () {
       const { user, task } = this.tasks.create;
-      cy.wait(2000);
+      cy.wait(3000);
       cy.getMessageQueue().then((response) => {
         expect(response.status).to.eq(200);
         expect(response.body[0].payload).to.include(user.name.split(" ")[0]);

@@ -1,6 +1,6 @@
 Cypress.Commands.add("postUser", (user) => {
   cy.api({
-    url: "/users",
+    url: `${Cypress.env("apiUrl")}/users`,
     method: "POST",
     body: user,
     failOnStatusCode: false,
@@ -8,9 +8,10 @@ Cypress.Commands.add("postUser", (user) => {
     return response;
   });
 });
+
 Cypress.Commands.add("postSession", (user) => {
   cy.api({
-    url: "/sessions",
+    url: `${Cypress.env("apiUrl")}/sessions`,
     method: "POST",
     body: { email: user.email, password: user.password },
     failOnStatusCode: false,
@@ -18,9 +19,10 @@ Cypress.Commands.add("postSession", (user) => {
     return response;
   });
 });
+
 Cypress.Commands.add("postTasks", (task, token) => {
   cy.api({
-    url: "/tasks",
+    url: `${Cypress.env("apiUrl")}/tasks`,
     method: "POST",
     body: task,
     headers: {
@@ -31,9 +33,10 @@ Cypress.Commands.add("postTasks", (task, token) => {
     return response;
   });
 });
+
 Cypress.Commands.add("getTasks", (token) => {
   cy.api({
-    url: "/tasks",
+    url: `${Cypress.env("apiUrl")}/tasks`,
     method: "GET",
     headers: {
       authorization: token,
@@ -43,9 +46,10 @@ Cypress.Commands.add("getTasks", (token) => {
     return response;
   });
 });
+
 Cypress.Commands.add("getUniqueTask", (taskId, token) => {
   cy.api({
-    url: "/tasks/" + taskId,
+    url: `${Cypress.env("apiUrl")}/tasks/${taskId}`,
     method: "GET",
     headers: {
       authorization: token,
@@ -55,9 +59,10 @@ Cypress.Commands.add("getUniqueTask", (taskId, token) => {
     return response;
   });
 });
+
 Cypress.Commands.add("deleteTask", (taskId, token) => {
   cy.api({
-    url: "/tasks/" + taskId,
+    url: `${Cypress.env("apiUrl")}/tasks/${taskId}`,
     method: "DELETE",
     headers: {
       authorization: token,
@@ -67,9 +72,10 @@ Cypress.Commands.add("deleteTask", (taskId, token) => {
     return response;
   });
 });
+
 Cypress.Commands.add("putTask", (taskId, token) => {
   cy.api({
-    url: `/tasks/${taskId}/done`,
+    url: `${Cypress.env("apiUrl")}/tasks/${taskId}/done`,
     method: "PUT",
     headers: {
       authorization: token,

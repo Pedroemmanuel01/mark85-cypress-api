@@ -10,6 +10,20 @@
       "tags": ["nubank", "ourocard", "smiles"]
     }
   },
+  "createTask": {
+    "user": {
+      "name": "Nino",
+      "email": "nino@gmail.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Pagar fatura do cartao",
+      "tag": ["nubank"],
+      "tag2": ["ourocard"],
+      "tag3": ["smiles"],
+      "tag4": ["Neon"]
+    }
+  },
   "dup": {
     "user": {
       "name": "Lily",
